@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 import { DB_NAME } from "../constants.js"  // DB is an another continents
-import e from "express"
+import express from "express"
 
 const connectDb = async () => {
 try {
@@ -15,3 +15,4 @@ try {
 }
 
 export default connectDb
+
